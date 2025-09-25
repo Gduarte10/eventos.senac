@@ -40,3 +40,55 @@ nav{
     top: 0;
     width: 100%;
 }
+
+/* Cards */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    /* para a badge*/
+    flex: 1 1 350px;
+    max-width: 450px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #003366;
+}
+
+.card p{
+    margin: 5px 0;
+    color:#333;
+}
+
+.badge{
+    position: absolute;
+    top: 90px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.badge.palestra {
+    background-color: #007bff;
+}
+
+.badge.workshop{
+    background-color: #f0ad4e;
+}
+
+.card i {
+    margin-right: 5px;
+    color: #555;
+}
